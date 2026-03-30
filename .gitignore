@@ -1,9 +1,1 @@
 venv/
-__pycache__/
-*.pyc
-.env
-data/sample_audio/*.mp3
-data/sample_audio/*.wav
-data/sample_audio/*.mp4
-*.egg-info/
-.pytest_cache/
