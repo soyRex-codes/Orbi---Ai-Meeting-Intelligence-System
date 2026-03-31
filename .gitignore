@@ -2,10 +2,7 @@
 venv/
 __pycache__/
 *.pyc
-data/sample_audio/*.mp3
-data/sample_audio/*.wav
-data/sample_audio/*.mp4
-data/sample_audio/*.webm
+data/sample_audio/
 *.egg-info/
 .pytest_cache/
 Full Roadmap.md
