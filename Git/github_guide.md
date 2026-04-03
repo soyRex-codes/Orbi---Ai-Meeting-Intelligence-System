@@ -25,21 +25,50 @@ git push origin feature/branch_name
 git checkout main                            # Switch to main
 git pull origin main                         # Get latest main
 git checkout feature/branch_name     # Switch back to your branch
-git merge main                               # Bring main's changes into your branch
+git fetch origin
 
-# ##############################
-# How to enter the message in Vim:
-Enter "Insert" mode: Press the i key on your keyboard. You should see -- INSERT -- appear at the bottom of the screen.
-Type your message: Use the arrow keys to move to the very first line (above the lines starting with #) and type your merge reason.
-Exit "Insert" mode: Press the Esc key once. The -- INSERT -- text at the bottom will disappear.
-Save and Close: Type :wq (the colon is required) and press Enter.
-# ##############################
 ---
 
+# Step 4 — Merge Your Work into Main (Pull Request)
+# Never merge directly into main from terminal. Always use a Pull Request on GitHub:
+1. Push your branch → git push origin feature/whisper-integration
+2. Go to GitHub → your repo
+3. Click "Compare & Pull Request" (GitHub shows this automatically)
+4. Add a title and description of what you did
+5. Assign a teammate to review
+6. Once approved → click "Merge Pull Request"
+7. Delete the branch after merging to keep the repo clean
+
+# Full Team Workflow Picture
+          TEAMMATE 1                   YOU                      TEAMMATE 2
+              │                         │                            │
+    feature/summarizer        feature/whisper              feature/speaker
+              │                         │                            │
+         work & commit              work & commit              work & commit
+              │                         │                            │
+         push branch               push branch                push branch
+              │                         │                            │
+         Pull Request              Pull Request               Pull Request
+              │                         │                            │
+              └──────────── main ────────────────────────────────────┘
+                         (always clean & stable)
+
+# Step 5 — After Your Branch is Merged, Clean Up
+git checkout main                               # Switch back to main
+git pull origin main                            # Get the freshly merged code
+git branch -d feature/whisper-integration       # Delete local branch
 
 
 
 
+
+
+
+
+
+
+
+# ############## Best Practices for Avoiding Merge Conflicts
 
 # Before You Start Working — Always Pull First
 git stash                    # Save your local changes temporarily
