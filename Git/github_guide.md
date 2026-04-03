@@ -22,11 +22,14 @@ git commit -m "feat: added whisper medium model transcription"
 git push origin feature/branch_name
 
 # Step 3 — Keep Your Branch Up to Date with Main
-git checkout main                            # Switch to main
-git pull origin main                         # Get latest main
-git checkout feature/branch_name     # Switch back to your branch
-git fetch origin
+# 1. after pushing in you feature branch for some days or if that praticular feature is completed, and [during that ignore that compare and PR request on github profile], 
+# 2. then merge [either perform normal merge or squash and merge] then complete you PR on github and delete your existing branch.
+pull latest changes from main to your local using the following commands: 
 
+git checkout main
+git pull origin main
+
+# repeat the process of creating a new branch and pushing to it for your next feature work
 ---
 
 # Step 4 — Merge Your Work into Main (Pull Request)
