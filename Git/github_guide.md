@@ -26,6 +26,14 @@ git checkout main                            # Switch to main
 git pull origin main                         # Get latest main
 git checkout feature/branch_name     # Switch back to your branch
 git merge main                               # Bring main's changes into your branch
+
+# ##############################
+# How to enter the message in Vim:
+Enter "Insert" mode: Press the i key on your keyboard. You should see -- INSERT -- appear at the bottom of the screen.
+Type your message: Use the arrow keys to move to the very first line (above the lines starting with #) and type your merge reason.
+Exit "Insert" mode: Press the Esc key once. The -- INSERT -- text at the bottom will disappear.
+Save and Close: Type :wq (the colon is required) and press Enter.
+# ##############################
 ---
 
 
