@@ -11,6 +11,7 @@ def test_audio_processor():
     prepared_audio = processor.prepare_audio('data/sample_audio/meeting_01.webm')[1]    # We did slicing here to get only the str path of the audio not the numpy array.
     processed_info = processor.get_audio_info(prepared_audio)
     print(f'Processed file info: {processed_info}')
+    
 
     
 if __name__ == "__main__":

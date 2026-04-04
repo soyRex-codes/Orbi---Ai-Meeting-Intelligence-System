@@ -10,4 +10,16 @@ Question we have:
  - how accurate is speaker diarization really?
 
 
+# whisper_transcriber
+# learnings from whisper_transcriber and why I build this:
+# 1. The transcriber adds structure, cleanliness, and abstraction, not better transcription.
+# 2. The raw output carries thousands of token IDs, seek positions, temperature, and compression_ratio — internal Whisper bookkeeping we 'll never need downstream. Our transcriber drops all of that, cutting file size by 55%.
+# 3. Whisper outputs text with leading spaces like " So I was having dinner...". Our transcriber strips those, giving cleaner segments for any NLP pipeline downstream.
+'''Raw Whisper returns a dict. Our code wraps it in typed dataclasses with: 
+    Computed properties (.duration)
+    Named fields (start_time vs start)
+    .to_dict() for serialization
+# This means any Python code that uses our results gets autocomplete, type checking, and will crash immediately on wrong field names instead of silently producing bugs.
+
+
  

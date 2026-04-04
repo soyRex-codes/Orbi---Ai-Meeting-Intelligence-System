@@ -18,7 +18,7 @@ class AudioProcessor:
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def prepare_audio(self, input_path: str):
+    def prepare_audio(self, input_path: str | Path): # using Path from pathlib to handle file paths more elegantly. It can accept both string and Path objects as input.
         """
         Convert any supported audio/video file to Whisper ready format.
         """
