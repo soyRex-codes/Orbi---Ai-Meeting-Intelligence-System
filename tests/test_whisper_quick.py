@@ -2,8 +2,8 @@ import whisper
 import json
 
 #model loading and transcript extraction from audio
-model = whisper.load_model("medium")
-result = model.transcribe("data/sample_audio/meeting_02.mp3")
+model = whisper.load_model("base")
+result = model.transcribe("data/sample_audio/meeting_01.webm")
 
 #saving the transcript
 with open("data/outputs/test_transcript_raw.json", "w") as f:

@@ -3,6 +3,7 @@ venv/
 __pycache__/
 *.pyc
 data/sample_audio/
+data/processed_audio/
 *.egg-info/
 .pytest_cache/
 Full Roadmap.md

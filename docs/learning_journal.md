@@ -8,3 +8,6 @@ Question we have:
  - How does Whisper handles overlapping speed?
  - What happens when audio quality is poor and audio file is broken at the middle?
  - how accurate is speaker diarization really?
+
+
+ 
