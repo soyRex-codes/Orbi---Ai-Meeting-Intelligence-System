@@ -1,0 +1,1575 @@
+{
+  "segments": [
+    {
+      "text": "So I was having dinner recently and I happened to be with somebody who runs a large fashion",
+      "start_time": 0.0,
+      "end_time": 8.42,
+      "avg_logprob": -0.18493411305186513,
+      "is_likely_speech": true
+    },
+    {
+      "text": "outlet which aggregates fashion businesses.",
+      "start_time": 8.42,
+      "end_time": 12.02,
+      "avg_logprob": -0.18493411305186513,
+      "is_likely_speech": true
+    },
+    {
+      "text": "There was a guy who worked in e-commerce, CEO of a e-commerce brand.",
+      "start_time": 12.02,
+      "end_time": 17.06,
+      "avg_logprob": -0.18493411305186513,
+      "is_likely_speech": true
+    },
+    {
+      "text": "There was a guy who worked in electric vehicles and I was sitting over dinner and talking to",
+      "start_time": 17.06,
+      "end_time": 21.56,
+      "avg_logprob": -0.18493411305186513,
+      "is_likely_speech": true
+    },
+    {
+      "text": "each of them and they told me something has changed in India where in consumption has slowed",
+      "start_time": 21.56,
+      "end_time": 28.3,
+      "avg_logprob": -0.18493411305186513,
+      "is_likely_speech": true
+    },
+    {
+      "text": "down drastically in the last one or two quarters.",
+      "start_time": 28.3,
+      "end_time": 31.98,
+      "avg_logprob": -0.2043689685863453,
+      "is_likely_speech": true
+    },
+    {
+      "text": "The numbers seem to show that Amazon is only growing by say 5% a year.",
+      "start_time": 31.98,
+      "end_time": 37.78,
+      "avg_logprob": -0.2043689685863453,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Flipkart is maybe growing at 7, 8% or near 10%, but based on the fact that Flipkart sells",
+      "start_time": 37.78,
+      "end_time": 46.34,
+      "avg_logprob": -0.2043689685863453,
+      "is_likely_speech": true
+    },
+    {
+      "text": "electronics of high value which seem to be going.",
+      "start_time": 46.34,
+      "end_time": 50.82,
+      "avg_logprob": -0.2043689685863453,
+      "is_likely_speech": true
+    },
+    {
+      "text": "There is definitely a premiumization which is going on in the market where the top end",
+      "start_time": 50.82,
+      "end_time": 54.480000000000004,
+      "avg_logprob": -0.2043689685863453,
+      "is_likely_speech": true
+    },
+    {
+      "text": "seems to be doing well and spending more money.",
+      "start_time": 54.48,
+      "end_time": 57.559999999999995,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "But the middle and the bottom are not truly participating in the cycle of consumption.",
+      "start_time": 57.559999999999995,
+      "end_time": 64.72,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So to the Zepto brothers, you cater to the middle more so than other people in your position,",
+      "start_time": 64.72,
+      "end_time": 71.8,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "what do you guys see on consumption?",
+      "start_time": 71.8,
+      "end_time": 72.8,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I am going to ask you about practice.",
+      "start_time": 72.8,
+      "end_time": 74.28,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Okay.",
+      "start_time": 74.28,
+      "end_time": 75.28,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Okay.",
+      "start_time": 75.28,
+      "end_time": 76.28,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "No, so look, I think the...",
+      "start_time": 76.28,
+      "end_time": 79.67999999999999,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So I think what this generation gets that I think a lot of people haven't gotten it,",
+      "start_time": 79.67999999999999,
+      "end_time": 83.36,
+      "avg_logprob": -0.31989047058627135,
+      "is_likely_speech": true
+    },
+    {
+      "text": "the generation's the past haven't gotten is that good service does not mean premium luxury.",
+      "start_time": 83.36,
+      "end_time": 88.88,
+      "avg_logprob": -0.297888262518521,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Good service is now like table stakes.",
+      "start_time": 88.88,
+      "end_time": 91.88,
+      "avg_logprob": -0.297888262518521,
+      "is_likely_speech": true
+    },
+    {
+      "text": "If you're not serving somebody well, that doesn't make you a budget player, it just makes",
+      "start_time": 91.88,
+      "end_time": 97.03999999999999,
+      "avg_logprob": -0.297888262518521,
+      "is_likely_speech": true
+    },
+    {
+      "text": "you a player that's not seen very positively.",
+      "start_time": 97.03999999999999,
+      "end_time": 100.03999999999999,
+      "avg_logprob": -0.297888262518521,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So I think what this generation is going for is good high quality service at a reasonable",
+      "start_time": 100.03999999999999,
+      "end_time": 105.64,
+      "avg_logprob": -0.297888262518521,
+      "is_likely_speech": true
+    },
+    {
+      "text": "cost, right?",
+      "start_time": 105.64,
+      "end_time": 106.64,
+      "avg_logprob": -0.297888262518521,
+      "is_likely_speech": true
+    },
+    {
+      "text": "At like a budget, not necessarily something that they have to trade up for or something",
+      "start_time": 106.64,
+      "end_time": 111.56,
+      "avg_logprob": -0.297888262518521,
+      "is_likely_speech": true
+    },
+    {
+      "text": "that's luxury.",
+      "start_time": 111.56,
+      "end_time": 112.88,
+      "avg_logprob": -0.297888262518521,
+      "is_likely_speech": true
+    },
+    {
+      "text": "But they are more demanding in that way.",
+      "start_time": 112.88,
+      "end_time": 115.28,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "They are not just because they're getting something for cheap, they're not willing to go",
+      "start_time": 115.28,
+      "end_time": 119.39999999999999,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "through shet for it.",
+      "start_time": 119.39999999999999,
+      "end_time": 120.72,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Right?",
+      "start_time": 120.72,
+      "end_time": 121.72,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like, that's traditionally if you look at consumption, past couple of decades, if you're",
+      "start_time": 121.72,
+      "end_time": 126.19999999999999,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "getting something of value as a consumer, usually they have to fight for it.",
+      "start_time": 126.19999999999999,
+      "end_time": 130.56,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like I love Deem art, by the way, but Deem art is an example, right?",
+      "start_time": 130.56,
+      "end_time": 133.96,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "A phenomenal business.",
+      "start_time": 133.96,
+      "end_time": 136.2,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "But if you want to buy their products, it's a pain, it's a fight, right?",
+      "start_time": 136.2,
+      "end_time": 141.0,
+      "avg_logprob": -0.31771227892707377,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's standing line.",
+      "start_time": 141.0,
+      "end_time": 142.0,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "There's no proximity for a drive there, right?",
+      "start_time": 142.0,
+      "end_time": 145.72,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's crowded.",
+      "start_time": 145.72,
+      "end_time": 147.08,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Cashers might not be available.",
+      "start_time": 147.08,
+      "end_time": 149.28,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's just not like a good feeling, right?",
+      "start_time": 149.28,
+      "end_time": 151.72,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "That's basically the cost of getting products for cheap.",
+      "start_time": 151.72,
+      "end_time": 154.92,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "And that's been the philosophy before.",
+      "start_time": 154.92,
+      "end_time": 156.76,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "But now I think the way that this generation is thinking about consumption is how do I get",
+      "start_time": 156.76,
+      "end_time": 162.4,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "that value, but do it well in a way that's how it went.",
+      "start_time": 162.4,
+      "end_time": 165.96,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So that's like, are you thrilled a little bit?",
+      "start_time": 165.96,
+      "end_time": 168.32,
+      "avg_logprob": -0.30075701904296875,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Are you seeing the change in rate of growth?",
+      "start_time": 168.32,
+      "end_time": 171.2,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I mean, the base is higher.",
+      "start_time": 171.2,
+      "end_time": 172.44,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I'd like we used to grow 100% a week.",
+      "start_time": 172.44,
+      "end_time": 176.07999999999998,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Compared to six months ago, how much are you growing it?",
+      "start_time": 176.07999999999998,
+      "end_time": 178.16,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Percentage wise.",
+      "start_time": 178.16,
+      "end_time": 179.16,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Going faster.",
+      "start_time": 179.16,
+      "end_time": 180.95999999999998,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "With like, let's say, the same expansion rate and the same level of marketing, we're actually",
+      "start_time": 180.95999999999998,
+      "end_time": 187.16,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "growing a little bit faster.",
+      "start_time": 187.16,
+      "end_time": 188.4,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Some of it is because of structural efficiency.",
+      "start_time": 188.4,
+      "end_time": 190.32,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Some of it is because our customer experience is constantly improving, right?",
+      "start_time": 190.32,
+      "end_time": 193.12,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like that.",
+      "start_time": 193.12,
+      "end_time": 194.12,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Always, always on improvement mode.",
+      "start_time": 194.12,
+      "end_time": 196.4,
+      "avg_logprob": -0.29048992073448904,
+      "is_likely_speech": true
+    },
+    {
+      "text": "But we're not seeing anything structural that's holding us back.",
+      "start_time": 196.4,
+      "end_time": 198.56,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like in the market.",
+      "start_time": 198.56,
+      "end_time": 199.56,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Those are more discretionary categories, right?",
+      "start_time": 199.56,
+      "end_time": 201.56,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Fashion.",
+      "start_time": 201.56,
+      "end_time": 202.56,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "The vast majority of the categories we sell are not discretionary.",
+      "start_time": 202.56,
+      "end_time": 205.36,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's like a lot of the day today that you need to just run your house.",
+      "start_time": 205.36,
+      "end_time": 208.84,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Yeah, people perceive us to be discretionary.",
+      "start_time": 208.84,
+      "end_time": 211.24,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "But actually, when you become a zeppro customer, you don't know any consumer, you're a",
+      "start_time": 211.24,
+      "end_time": 214.70000000000002,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "good.",
+      "start_time": 214.70000000000002,
+      "end_time": 215.70000000000002,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "No capital goods, no consumer, nothing with the long shelf life.",
+      "start_time": 215.70000000000002,
+      "end_time": 219.0,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "No, we do.",
+      "start_time": 219.0,
+      "end_time": 220.0,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So we have home needs, right?",
+      "start_time": 220.0,
+      "end_time": 222.0,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like, we think from stationary to like, you're going back.",
+      "start_time": 222.0,
+      "end_time": 224.84,
+      "avg_logprob": -0.42277161767877686,
+      "is_likely_speech": true
+    },
+    {
+      "text": "You're going to stick a barrel, yoga mats, kitchen utensils.",
+      "start_time": 224.84,
+      "end_time": 227.28,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "We do electronics.",
+      "start_time": 227.28,
+      "end_time": 228.28,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So electronics, one of the fastest going categories we have.",
+      "start_time": 228.28,
+      "end_time": 230.20000000000002,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "What is growing the fastest in an electronics?",
+      "start_time": 230.20000000000002,
+      "end_time": 232.4,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "With the, the, the, the D to C electronics, the, the boards of the world, the noises of",
+      "start_time": 232.4,
+      "end_time": 238.68,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "the world, those are going really fast.",
+      "start_time": 238.68,
+      "end_time": 240.48000000000002,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So you're competing with Flipkart there?",
+      "start_time": 240.48000000000002,
+      "end_time": 242.68,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Yeah.",
+      "start_time": 242.68,
+      "end_time": 243.68,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I think we're not high value, like, not on the super high value mobile phones and laptops",
+      "start_time": 243.68,
+      "end_time": 248.04,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "and stuff.",
+      "start_time": 248.04,
+      "end_time": 249.04,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Why is it Flipkart doing this?",
+      "start_time": 249.04,
+      "end_time": 251.04,
+      "avg_logprob": -0.3849038469030502,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Naturally, your model is, I know why Amazon can't compete, right?",
+      "start_time": 251.04,
+      "end_time": 256.15999999999997,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Because they have one centralized warehouse where all this sort of thing happens.",
+      "start_time": 256.15999999999997,
+      "end_time": 260.36,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Amazon buy, hold the inventory, then sell and Flipkart connects.",
+      "start_time": 260.36,
+      "end_time": 264.88,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "They both are the same.",
+      "start_time": 264.88,
+      "end_time": 266.88,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Both of the same, they are the same model.",
+      "start_time": 266.88,
+      "end_time": 268.84,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "But the story publicly is different.",
+      "start_time": 268.84,
+      "end_time": 270.88,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Tactical difference.",
+      "start_time": 270.88,
+      "end_time": 271.88,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Still the same fundamentally.",
+      "start_time": 271.88,
+      "end_time": 272.88,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Do you question on why they aren't doing this?",
+      "start_time": 272.88,
+      "end_time": 275.24,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Good question.",
+      "start_time": 275.24,
+      "end_time": 276.24,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I don't know.",
+      "start_time": 276.24,
+      "end_time": 277.24,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "They must be logical.",
+      "start_time": 277.24,
+      "end_time": 278.24,
+      "avg_logprob": -0.3527754545211792,
+      "is_likely_speech": true
+    },
+    {
+      "text": "They must be logical.",
+      "start_time": 278.24,
+      "end_time": 280.24,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Last few years, the media or the general sentiment around, I don't give it away.",
+      "start_time": 280.24,
+      "end_time": 286.64,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Yeah.",
+      "start_time": 286.64,
+      "end_time": 287.64,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Has not been very positive.",
+      "start_time": 287.64,
+      "end_time": 288.64,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I mean, has it written it off?",
+      "start_time": 288.64,
+      "end_time": 290.44,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Because globally also, most businesses are...",
+      "start_time": 290.44,
+      "end_time": 292.24,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "You're talking about quick commerce.",
+      "start_time": 292.24,
+      "end_time": 293.44,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Yes.",
+      "start_time": 293.44,
+      "end_time": 294.44,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Globally, most quick commerce business have shut down right now.",
+      "start_time": 294.44,
+      "end_time": 296.96000000000004,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "All the ones that went crazy in the zero interest rate 2020, 2021 at all.",
+      "start_time": 296.96000000000004,
+      "end_time": 300.44,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's like retail in that way.",
+      "start_time": 300.44,
+      "end_time": 301.44,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Most of them are shut down.",
+      "start_time": 301.44,
+      "end_time": 302.44,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "What distinguishes Zepto?",
+      "start_time": 302.44,
+      "end_time": 305.92,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Execution.",
+      "start_time": 305.92,
+      "end_time": 306.92,
+      "avg_logprob": -0.44030054410298664,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Discipline.",
+      "start_time": 307.92,
+      "end_time": 308.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Rigo.",
+      "start_time": 308.92,
+      "end_time": 309.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like a lot more...",
+      "start_time": 309.92,
+      "end_time": 312.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "We operated that six sigma culture.",
+      "start_time": 312.92,
+      "end_time": 315.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "At least what we aspire to be.",
+      "start_time": 315.92,
+      "end_time": 318.52000000000004,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "If you read this book about Toyota.",
+      "start_time": 318.52000000000004,
+      "end_time": 320.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Six sigma black, but jail created it.",
+      "start_time": 320.92,
+      "end_time": 322.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "We're trying to be Toyota in that sense.",
+      "start_time": 322.92,
+      "end_time": 324.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "We're a lot less.",
+      "start_time": 324.92,
+      "end_time": 325.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "We're a lot more left-brained.",
+      "start_time": 325.92,
+      "end_time": 326.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "We're a lot more analytical, a lot more disciplined.",
+      "start_time": 326.92,
+      "end_time": 329.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "And this business is about that.",
+      "start_time": 329.92,
+      "end_time": 330.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's a lot of session with just better cost structures.",
+      "start_time": 330.92,
+      "end_time": 335.92,
+      "avg_logprob": -0.3238597544588784,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like constantly improving it, pass out by pass out.",
+      "start_time": 335.92,
+      "end_time": 337.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "No silver bullets.",
+      "start_time": 337.92,
+      "end_time": 338.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So we've gone through this phase, right?",
+      "start_time": 338.92,
+      "end_time": 339.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Temporary delivery is impossible.",
+      "start_time": 339.92,
+      "end_time": 341.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Nobody cares about temporary delivery.",
+      "start_time": 341.92,
+      "end_time": 343.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Phase two.",
+      "start_time": 343.92,
+      "end_time": 344.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "When we got past that, phase three, temporary delivery, not make any money.",
+      "start_time": 344.92,
+      "end_time": 347.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Which we're also getting passed, right?",
+      "start_time": 347.92,
+      "end_time": 349.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "But the...",
+      "start_time": 349.92,
+      "end_time": 350.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "When that second phase...",
+      "start_time": 350.92,
+      "end_time": 351.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "And what scaled us temporary delivery make money?",
+      "start_time": 351.92,
+      "end_time": 354.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "What percentage of the population is using apps such as Zepto to shop?",
+      "start_time": 354.92,
+      "end_time": 360.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Very small.",
+      "start_time": 360.92,
+      "end_time": 361.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Very, very small.",
+      "start_time": 361.92,
+      "end_time": 362.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Basis points.",
+      "start_time": 362.92,
+      "end_time": 363.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "What's the number?",
+      "start_time": 363.92,
+      "end_time": 364.92,
+      "avg_logprob": -0.22444067791009406,
+      "is_likely_speech": true
+    },
+    {
+      "text": "1%.",
+      "start_time": 364.92,
+      "end_time": 365.92,
+      "avg_logprob": -0.21647826912476845,
+      "is_likely_speech": true
+    },
+    {
+      "text": "To give you the exact number, it would be like about today collectively 0.3% of grocery.",
+      "start_time": 365.92,
+      "end_time": 373.92,
+      "avg_logprob": -0.21647826912476845,
+      "is_likely_speech": true
+    },
+    {
+      "text": "What number does it have to go up to before e-commerce makes money?",
+      "start_time": 373.92,
+      "end_time": 379.92,
+      "avg_logprob": -0.21647826912476845,
+      "is_likely_speech": true
+    },
+    {
+      "text": "0.35%.",
+      "start_time": 379.92,
+      "end_time": 380.92,
+      "avg_logprob": -0.21647826912476845,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So you close?",
+      "start_time": 380.92,
+      "end_time": 381.92,
+      "avg_logprob": -0.21647826912476845,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Yeah.",
+      "start_time": 381.92,
+      "end_time": 382.92,
+      "avg_logprob": -0.21647826912476845,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Is that a big part of how you make money or is it more increasing the value of order?",
+      "start_time": 382.92,
+      "end_time": 390.92,
+      "avg_logprob": -0.21647826912476845,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Right now, it's more than that though.",
+      "start_time": 390.92,
+      "end_time": 392.92,
+      "avg_logprob": -0.21647826912476845,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Increasing the value of order?",
+      "start_time": 393.92,
+      "end_time": 394.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "Most of the people are getting money.",
+      "start_time": 394.92,
+      "end_time": 395.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "It's a matter of getting more dark stores, launching more dark stores,",
+      "start_time": 395.92,
+      "end_time": 399.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "getting them to that point where...",
+      "start_time": 399.92,
+      "end_time": 400.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "Yeah, like the overheads are covered.",
+      "start_time": 400.92,
+      "end_time": 402.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "To be honest, the most fast stores make money today.",
+      "start_time": 402.92,
+      "end_time": 404.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "Right.",
+      "start_time": 404.92,
+      "end_time": 405.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "And yeah, like now people are starting to internalize their host shit.",
+      "start_time": 405.92,
+      "end_time": 409.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "These stores are starting to make, you know, throw up, like pretty meaningful amounts of cash.",
+      "start_time": 409.92,
+      "end_time": 413.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "But anyway, so like coming back to it, I think like...",
+      "start_time": 413.92,
+      "end_time": 416.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "I don't know if people are still willing to pay.",
+      "start_time": 416.92,
+      "end_time": 419.92,
+      "avg_logprob": -0.3031760117103314,
+      "is_likely_speech": false
+    },
+    {
+      "text": "I think that inherent sense of frugality in India is still deep-seated.",
+      "start_time": 420.92,
+      "end_time": 423.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I think the problem statement is, how do you give them that experience without the cost?",
+      "start_time": 423.92,
+      "end_time": 428.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Do you think the ecosystem got spoiled by cheap foreign money which came in and artificially discounted everything last two to three years?",
+      "start_time": 428.92,
+      "end_time": 435.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "100%.",
+      "start_time": 435.92,
+      "end_time": 436.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "100% but not even just about the customer.",
+      "start_time": 436.92,
+      "end_time": 439.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's about the operators.",
+      "start_time": 439.92,
+      "end_time": 440.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Yeah.",
+      "start_time": 440.92,
+      "end_time": 441.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "The operators got spoiled.",
+      "start_time": 441.92,
+      "end_time": 442.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Not the customer.",
+      "start_time": 442.92,
+      "end_time": 443.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "And do you think a lot of what is happening is a factor of money becoming more expensive?",
+      "start_time": 443.92,
+      "end_time": 448.92,
+      "avg_logprob": -0.14452364928740308,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I'm talking about the cycle.",
+      "start_time": 448.92,
+      "end_time": 449.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Inflation high interest rates, money is expensive less money in India.",
+      "start_time": 449.92,
+      "end_time": 452.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "In the discharging carries you talk about like the people you met in fashion or whatever, potentially.",
+      "start_time": 452.92,
+      "end_time": 457.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's 200% agree with that.",
+      "start_time": 457.92,
+      "end_time": 459.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like that is absolutely what's happening.",
+      "start_time": 459.92,
+      "end_time": 460.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "There is nothing structural if you look at the Indian economy.",
+      "start_time": 460.92,
+      "end_time": 463.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "That's pulling anybody back.",
+      "start_time": 463.92,
+      "end_time": 464.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's what's happening abroad.",
+      "start_time": 464.92,
+      "end_time": 466.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "That's what it is.",
+      "start_time": 466.92,
+      "end_time": 467.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "To that point, right.",
+      "start_time": 467.92,
+      "end_time": 468.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "All dollars should come from India.",
+      "start_time": 468.92,
+      "end_time": 469.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So if I were 20 and I'm trying to build a business for 20 year olds in your domain.",
+      "start_time": 469.92,
+      "end_time": 475.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Yeah.",
+      "start_time": 475.92,
+      "end_time": 476.92,
+      "avg_logprob": -0.2631790607006519,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So what are the gaps?",
+      "start_time": 476.92,
+      "end_time": 479.92,
+      "avg_logprob": -0.2511947489230432,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Lots of gaps.",
+      "start_time": 479.92,
+      "end_time": 480.92,
+      "avg_logprob": -0.2511947489230432,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I think the, yeah, from our vantage point like on categories like with the fastest growing",
+      "start_time": 480.92,
+      "end_time": 486.92,
+      "avg_logprob": -0.2511947489230432,
+      "is_likely_speech": true
+    },
+    {
+      "text": "commerce platform in the country right now.",
+      "start_time": 486.92,
+      "end_time": 488.92,
+      "avg_logprob": -0.2511947489230432,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So we can see like all these, these different categories from make up to electronics to like coal grocery.",
+      "start_time": 488.92,
+      "end_time": 497.92,
+      "avg_logprob": -0.2511947489230432,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like the boring answers is that there are commodities that should be branded that are not yet.",
+      "start_time": 497.92,
+      "end_time": 501.92,
+      "avg_logprob": -0.2511947489230432,
+      "is_likely_speech": true
+    },
+    {
+      "text": "There's a big opportunity there.",
+      "start_time": 501.92,
+      "end_time": 503.92,
+      "avg_logprob": -0.2511947489230432,
+      "is_likely_speech": true
+    },
+    {
+      "text": "What do you mean by commodities?",
+      "start_time": 503.92,
+      "end_time": 504.92,
+      "avg_logprob": -0.2511947489230432,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Like I would say dry fruits basically example.",
+      "start_time": 504.92,
+      "end_time": 508.92,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "There should be like a large scale D to C dry fruits band.",
+      "start_time": 508.92,
+      "end_time": 511.92,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I also considering rise at the second more.",
+      "start_time": 511.92,
+      "end_time": 514.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So those work commodities until the Ashifahs of the world made them into brands.",
+      "start_time": 514.9200000000001,
+      "end_time": 518.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So autumn may be for rise not yet.",
+      "start_time": 518.9200000000001,
+      "end_time": 520.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "India.",
+      "start_time": 520.9200000000001,
+      "end_time": 521.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "True.",
+      "start_time": 521.9200000000001,
+      "end_time": 522.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Yeah.",
+      "start_time": 522.9200000000001,
+      "end_time": 523.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So there are brands now in those categories.",
+      "start_time": 523.9200000000001,
+      "end_time": 526.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "The vast majority.",
+      "start_time": 526.9200000000001,
+      "end_time": 527.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I'm not sure how vast that majority is.",
+      "start_time": 527.9200000000001,
+      "end_time": 530.9200000000001,
+      "avg_logprob": -0.34504526002066477,
+      "is_likely_speech": true
+    },
+    {
+      "text": "There's a fairly significant trunk that still buys.",
+      "start_time": 530.92,
+      "end_time": 533.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Blue Sata, loose rice, something like that.",
+      "start_time": 533.92,
+      "end_time": 535.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So you're saying one opportunity to build is creating IP or branding basic commodities.",
+      "start_time": 535.92,
+      "end_time": 541.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Again, the brand has to come from substance.",
+      "start_time": 541.92,
+      "end_time": 542.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Right.",
+      "start_time": 542.92,
+      "end_time": 543.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "If you just slap like a fancy logo.",
+      "start_time": 543.92,
+      "end_time": 544.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Give me an example of substance.",
+      "start_time": 544.92,
+      "end_time": 546.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So Ashifah.",
+      "start_time": 546.92,
+      "end_time": 547.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "What did they do?",
+      "start_time": 547.92,
+      "end_time": 548.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "It's cheaper and it's better quality.",
+      "start_time": 548.92,
+      "end_time": 549.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "They've perfected the supply chain.",
+      "start_time": 549.92,
+      "end_time": 551.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Right.",
+      "start_time": 551.92,
+      "end_time": 552.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Through a lot of rigorous iteration.",
+      "start_time": 552.92,
+      "end_time": 554.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Through a lot of boring process improvement and excellence.",
+      "start_time": 554.92,
+      "end_time": 557.92,
+      "avg_logprob": -0.2907503817943817,
+      "is_likely_speech": true
+    },
+    {
+      "text": "They've just created like this phenomenal supply chain of like I would say world class quality control.",
+      "start_time": 557.92,
+      "end_time": 563.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "And they're able to pass on some condition of the customer in a form of low prices and still print money.",
+      "start_time": 563.92,
+      "end_time": 567.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "That's great.",
+      "start_time": 567.92,
+      "end_time": 568.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "That's an unbelievable equation.",
+      "start_time": 568.92,
+      "end_time": 570.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "So that's where the substance comes from.",
+      "start_time": 570.92,
+      "end_time": 571.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Now if you take like you take you know dry fruits and you put it in packaging and put a nice logo on it.",
+      "start_time": 571.92,
+      "end_time": 577.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "You're not scared.",
+      "start_time": 577.92,
+      "end_time": 578.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Why not it?",
+      "start_time": 578.92,
+      "end_time": 579.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Hi, I'm Nihil Ghamard.",
+      "start_time": 579.92,
+      "end_time": 581.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "I'd love to know what you thought of the episode.",
+      "start_time": 581.92,
+      "end_time": 583.92,
+      "avg_logprob": -0.2113339560372489,
+      "is_likely_speech": true
+    },
+    {
+      "text": "Comment, like and subscribe.",
+      "start_time": 583.92,
+      "end_time": 586.92,
+      "avg_logprob": -0.17868733406066895,
+      "is_likely_speech": false
+    },
+    {
+      "text": "And thank you for watching.",
+      "start_time": 586.92,
+      "end_time": 587.92,
+      "avg_logprob": -0.17868733406066895,
+      "is_likely_speech": false
+    }
+  ],
+  "full_text": "So I was having dinner recently and I happened to be with somebody who runs a large fashion outlet which aggregates fashion businesses. There was a guy who worked in e-commerce, CEO of a e-commerce brand. There was a guy who worked in electric vehicles and I was sitting over dinner and talking to each of them and they told me something has changed in India where in consumption has slowed down drastically in the last one or two quarters. The numbers seem to show that Amazon is only growing by say 5% a year. Flipkart is maybe growing at 7, 8% or near 10%, but based on the fact that Flipkart sells electronics of high value which seem to be going. There is definitely a premiumization which is going on in the market where the top end seems to be doing well and spending more money. But the middle and the bottom are not truly participating in the cycle of consumption. So to the Zepto brothers, you cater to the middle more so than other people in your position, what do you guys see on consumption? I am going to ask you about practice. Okay. Okay. No, so look, I think the... So I think what this generation gets that I think a lot of people haven't gotten it, the generation's the past haven't gotten is that good service does not mean premium luxury. Good service is now like table stakes. If you're not serving somebody well, that doesn't make you a budget player, it just makes you a player that's not seen very positively. So I think what this generation is going for is good high quality service at a reasonable cost, right? At like a budget, not necessarily something that they have to trade up for or something that's luxury. But they are more demanding in that way. They are not just because they're getting something for cheap, they're not willing to go through shet for it. Right? Like, that's traditionally if you look at consumption, past couple of decades, if you're getting something of value as a consumer, usually they have to fight for it. Like I love Deem art, by the way, but Deem art is an example, right? A phenomenal business. But if you want to buy their products, it's a pain, it's a fight, right? It's standing line. There's no proximity for a drive there, right? It's crowded. Cashers might not be available. It's just not like a good feeling, right? That's basically the cost of getting products for cheap. And that's been the philosophy before. But now I think the way that this generation is thinking about consumption is how do I get that value, but do it well in a way that's how it went. So that's like, are you thrilled a little bit? Are you seeing the change in rate of growth? I mean, the base is higher. I'd like we used to grow 100% a week. Compared to six months ago, how much are you growing it? Percentage wise. Going faster. With like, let's say, the same expansion rate and the same level of marketing, we're actually growing a little bit faster. Some of it is because of structural efficiency. Some of it is because our customer experience is constantly improving, right? Like that. Always, always on improvement mode. But we're not seeing anything structural that's holding us back. Like in the market. Those are more discretionary categories, right? Fashion. The vast majority of the categories we sell are not discretionary. It's like a lot of the day today that you need to just run your house. Yeah, people perceive us to be discretionary. But actually, when you become a zeppro customer, you don't know any consumer, you're a good. No capital goods, no consumer, nothing with the long shelf life. No, we do. So we have home needs, right? Like, we think from stationary to like, you're going back. You're going to stick a barrel, yoga mats, kitchen utensils. We do electronics. So electronics, one of the fastest going categories we have. What is growing the fastest in an electronics? With the, the, the, the D to C electronics, the, the boards of the world, the noises of the world, those are going really fast. So you're competing with Flipkart there? Yeah. I think we're not high value, like, not on the super high value mobile phones and laptops and stuff. Why is it Flipkart doing this? Naturally, your model is, I know why Amazon can't compete, right? Because they have one centralized warehouse where all this sort of thing happens. Amazon buy, hold the inventory, then sell and Flipkart connects. They both are the same. Both of the same, they are the same model. But the story publicly is different. Tactical difference. Still the same fundamentally. Do you question on why they aren't doing this? Good question. I don't know. They must be logical. They must be logical. Last few years, the media or the general sentiment around, I don't give it away. Yeah. Has not been very positive. I mean, has it written it off? Because globally also, most businesses are... You're talking about quick commerce. Yes. Globally, most quick commerce business have shut down right now. All the ones that went crazy in the zero interest rate 2020, 2021 at all. It's like retail in that way. Most of them are shut down. What distinguishes Zepto? Execution. Discipline. Rigo. Like a lot more... We operated that six sigma culture. At least what we aspire to be. If you read this book about Toyota. Six sigma black, but jail created it. We're trying to be Toyota in that sense. We're a lot less. We're a lot more left-brained. We're a lot more analytical, a lot more disciplined. And this business is about that. It's a lot of session with just better cost structures. Like constantly improving it, pass out by pass out. No silver bullets. So we've gone through this phase, right? Temporary delivery is impossible. Nobody cares about temporary delivery. Phase two. When we got past that, phase three, temporary delivery, not make any money. Which we're also getting passed, right? But the... When that second phase... And what scaled us temporary delivery make money? What percentage of the population is using apps such as Zepto to shop? Very small. Very, very small. Basis points. What's the number? 1%. To give you the exact number, it would be like about today collectively 0.3% of grocery. What number does it have to go up to before e-commerce makes money? 0.35%. So you close? Yeah. Is that a big part of how you make money or is it more increasing the value of order? Right now, it's more than that though. Increasing the value of order? Most of the people are getting money. It's a matter of getting more dark stores, launching more dark stores, getting them to that point where... Yeah, like the overheads are covered. To be honest, the most fast stores make money today. Right. And yeah, like now people are starting to internalize their host shit. These stores are starting to make, you know, throw up, like pretty meaningful amounts of cash. But anyway, so like coming back to it, I think like... I don't know if people are still willing to pay. I think that inherent sense of frugality in India is still deep-seated. I think the problem statement is, how do you give them that experience without the cost? Do you think the ecosystem got spoiled by cheap foreign money which came in and artificially discounted everything last two to three years? 100%. 100% but not even just about the customer. It's about the operators. Yeah. The operators got spoiled. Not the customer. And do you think a lot of what is happening is a factor of money becoming more expensive? I'm talking about the cycle. Inflation high interest rates, money is expensive less money in India. In the discharging carries you talk about like the people you met in fashion or whatever, potentially. It's 200% agree with that. Like that is absolutely what's happening. There is nothing structural if you look at the Indian economy. That's pulling anybody back. It's what's happening abroad. That's what it is. To that point, right. All dollars should come from India. So if I were 20 and I'm trying to build a business for 20 year olds in your domain. Yeah. So what are the gaps? Lots of gaps. I think the, yeah, from our vantage point like on categories like with the fastest growing commerce platform in the country right now. So we can see like all these, these different categories from make up to electronics to like coal grocery. Like the boring answers is that there are commodities that should be branded that are not yet. There's a big opportunity there. What do you mean by commodities? Like I would say dry fruits basically example. There should be like a large scale D to C dry fruits band. I also considering rise at the second more. So those work commodities until the Ashifahs of the world made them into brands. So autumn may be for rise not yet. India. True. Yeah. So there are brands now in those categories. The vast majority. I'm not sure how vast that majority is. There's a fairly significant trunk that still buys. Blue Sata, loose rice, something like that. So you're saying one opportunity to build is creating IP or branding basic commodities. Again, the brand has to come from substance. Right. If you just slap like a fancy logo. Give me an example of substance. So Ashifah. What did they do? It's cheaper and it's better quality. They've perfected the supply chain. Right. Through a lot of rigorous iteration. Through a lot of boring process improvement and excellence. They've just created like this phenomenal supply chain of like I would say world class quality control. And they're able to pass on some condition of the customer in a form of low prices and still print money. That's great. That's an unbelievable equation. So that's where the substance comes from. Now if you take like you take you know dry fruits and you put it in packaging and put a nice logo on it. You're not scared. Why not it? Hi, I'm Nihil Ghamard. I'd love to know what you thought of the episode. Comment, like and subscribe. And thank you for watching.",
+  "language": "en",
+  "model_size": "base"
+}
