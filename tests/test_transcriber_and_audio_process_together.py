@@ -1,6 +1,5 @@
 # TO RUN TEST FILE USE pytest filename.py # NEVER USE python3 filename.py for running test file
 
-
 import pytest # how is this helpful? pytest is a testing framework that allows you to write simple and scalable test cases for your code. It provides features like fixtures, parameterization, and assertions that make it easier to write and maintain tests. In this context, we can use pytest to create test cases for the AudioProcessor and WhisperTranscriber components, ensuring that they work correctly both individually and together. By using pytest, we can automate the testing process and catch any issues early on in the development cycle.
 import os # os is a built-in Python module that provides a way to interact with the operating system. In the context of testing the AudioProcessor and WhisperTranscriber, we can use the os module to check for the existence of files, create directories, and manage file paths. For example, after processing an audio file with AudioProcessor, we can use os.path.exists() to verify that the processed audio file was created successfully. Additionally, we can use os.remove() to clean up any test files created during the testing process. Overall, the os module helps us manage file operations and ensure that our tests are working with the correct files and directories.
 from pathlib import Path
