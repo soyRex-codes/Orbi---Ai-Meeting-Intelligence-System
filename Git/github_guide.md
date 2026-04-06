@@ -1,3 +1,6 @@
+# EXTRA: command to activate venv
+source venv/bin/activate
+
 # Git new branch and best practices steps
 
 ```bash

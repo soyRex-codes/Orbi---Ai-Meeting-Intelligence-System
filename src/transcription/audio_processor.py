@@ -1,7 +1,6 @@
 import whisper
 from pathlib import Path
 from scipy.io import wavfile
-import torchaudio
 
 class AudioProcessor:
     """
@@ -24,11 +23,11 @@ class AudioProcessor:
         """
         input_path = Path(input_path)
 
-        if not input_path.exists():
-            raise FileNotFoundError(f"Audio file not found: {input_path}")
-        
         if input_path.suffix.lower() not in self.SUPPORTED_FORMATS:
             raise ValueError(f"Format {input_path.suffix} not supported.")
+        
+        if not input_path.exists():
+            raise FileNotFoundError(f"Audio file not found: {input_path}")
         
         audio = whisper.load_audio(str(input_path))
         print(f"Audio Loaded: {len(audio)/self.TARGET_SAMPLE_RATE:.1f} seconds")
@@ -40,11 +39,11 @@ class AudioProcessor:
     
     def get_audio_info(self, input_path: str) -> dict:
         """
-        Get basic audio info using torchaudio's loader.
+        Get basic audio info from a WAV file using scipy.
         """
         try:
-            audio_data, sample_rate = torchaudio.load(str(input_path))       # This line is for finding the sample rate of the audio. 
-            duration = audio_data.shape[1] / sample_rate
+            sample_rate, audio_data = wavfile.read(str(input_path))  # scipy already imported
+            duration = len(audio_data) / sample_rate
             
             return {
                 'duration_seconds': duration,
