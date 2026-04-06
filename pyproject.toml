@@ -1,0 +1,9 @@
+# why this file exists? # this file is used to configure the pytest testing framework. It is used to configure the pytest testing framework to run the tests in a specific way. 
+# specifically this file is used to define markers for the tests. Markers are used to group tests together and to skip tests that are not relevant to the current test run. 
+
+
+[tool.pytest.ini_options]
+pythonpath = ["."] # this is used to tell pytest where to find the source code. specifically, it tells pytest "add the project root to sys.path before importing anything." Now from src.transcription... will resolve.
+markers = [
+    "slow: tests that load ML models or process real audio files",
+]
