@@ -50,3 +50,10 @@ Raw Whisper returns a dict. Our code wraps it in typed dataclasses with:
 - .to_dict() for serialization
     
 This means any Python code that uses our results gets autocomplete, type checking, and will crash immediately on wrong field names instead of silently producing bugs.
+ Day 5, 6, 7:
+ Testing pipeline to test both Audio porcessor and wishper transcriber together: testing both together reveled that they both work correctly as expected togther, audio gets processed and then gets passed to trasnscriber to transcriber, where both runs their methods successfully and giving out the results such as processing timel, checks were performed with different models such as tiny, base medium and large, and was foudn out that each larger model performs little better than previous smaller model in recognixing words and full context, while it was also found out that in some cases smaller model were better able to identify what speaker was speaking which was very surprising, so it was concluding that each models have there uniqe strengths even if the sizes differs.
+
+- initally we had gotthen rid of confidence score asw it was not accurate insted farbricated by almost -+50%.
+- another major things is, when users have thicker accents eg: phlipino, or affircan, the model struggles to identify their speach but works great when listens modern english native speakers, which points that mdoel maybe trained highly on english native speakers first.
+- there were some minor mistakes the team learned how useful git commands and git ignore is and to write explicit comments to tell what the code is and hwo its works -  very useful for rest of the member of the team.
+
