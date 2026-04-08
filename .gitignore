@@ -6,4 +6,5 @@ data/sample_audio/
 data/processed_audio/
 *.egg-info/
 .pytest_cache/
-Full Roadmap.md.DS_Store
+Full Roadmap.md
+.DS_Store
