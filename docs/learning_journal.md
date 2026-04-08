@@ -12,19 +12,6 @@ Question we have:
 # Day 2:
 We downloaded the OpenAI whisper model on our local machine and also the sample audio. Then, We run our model and gets the initial audio-to-text conversion. We get segments- chunks of text with timestamps:
 
-# whisper_transcriber
-# learnings from whisper_transcriber and why I build this:
-# 1. The transcriber adds structure, cleanliness, and abstraction, not better transcription.
-# 2. The raw output carries thousands of token IDs, seek positions, temperature, and compression_ratio — internal Whisper bookkeeping we 'll never need downstream. Our transcriber drops all of that, cutting file size by 55%.
-# 3. Whisper outputs text with leading spaces like " So I was having dinner...". Our transcriber strips those, giving cleaner segments for any NLP pipeline downstream.
-'''Raw Whisper returns a dict. Our code wraps it in typed dataclasses with: 
-    Computed properties (.duration)
-    Named fields (start_time vs start)
-    .to_dict() for serialization
-# This means any Python code that uses our results gets autocomplete, type checking, and will crash immediately on wrong field names instead of silently producing bugs.
-
-
- 
 "segments": {
       "id": 0,
       "seek": 0,
@@ -44,7 +31,7 @@ might be wrong.
 2) no_speech_prob = How likely the model thinks this segment is actually silence or noise, not speech. High values mean "this 
 probably isn't real speech."
 
-Also, we knew about the "Sampling rate" of the audio and whisper model, which always expect 16000Hz sample rate to run it. There's one A 
+Also, we knew about the "Sampling rate" of the audio and whisper model, which always expect 16000Hz sample rate to run it. There's one
 library called "ffmpeg" which does this thing internally to convert audio to 16kHz and feeds the whisper model.
 
 # Day 3:
