@@ -58,3 +58,10 @@ git pull origin main
               │                         │                            │
               └──────────── main ────────────────────────────────────┘
                          (always clean & stable)
+
+# Pull files from teamMates branch, eg: week 2 was developed by Rikesh and i am on week3, so I will pull the files he has pushed on his branch, so i can use that to work on my branch, maybe for some testing
+git stash -u # saves your local changes on local directory including untracked files
+git fetch origin # fetches current repo to up to date
+git merge origin/test/diarization_quick_test # pull files and data from your teammates branch, make sure to replace "test/diarization_quick_test" with the branch full path
+git stash pop # bring local saved chnages # may get❗ Conflicts → simply resolve by visting files # This is normal, not a problem
+git pusH # AFTER MERGE
