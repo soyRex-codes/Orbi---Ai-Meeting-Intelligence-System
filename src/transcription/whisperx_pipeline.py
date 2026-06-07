@@ -5,7 +5,7 @@ import logging
 import gc
 from pathlib import Path
 from dataclasses import dataclass, asdict
-from typing import Optional
+from typing import Any, Optional
 
 import whisperx
 from whisperx.diarize import DiarizationPipeline
@@ -47,14 +47,16 @@ class PipelineResult:
     @property
     def full_text(self) -> str:
         """Concatenate all segment text into a single string."""
-        for seg in self.segments:
-            return " ".join(seg.get("text", "").strip())
+        return " ".join(
+            seg.get("text", "").strip()
+            for seg in self.segments
+            if seg.get("text", "").strip()
+        )
         
     @property
     def speakers(self) -> list[str]:
         """List of unique speaker IDs found."""
-        for seg in self.segments:
-            return sorted(set(seg.get("speaker", "UNKNOWN")))
+        return sorted({seg.get("speaker", "UNKNOWN") for seg in self.segments})
         
     @property
     def realtime_factor(self) -> float:
@@ -89,7 +91,7 @@ class PipelineResult:
         logger.info(f'Results saved to {path}')
         return str(path)
     
-    def format_readable(self, max_segments: int = None) -> str:
+    def format_readable(self, max_segments: int | None = None) -> str:
         """Format as a human readable speaker labeled transcript."""
         lines = []
         current_speaker = None
@@ -121,7 +123,7 @@ class WhisperXPipeline:
     Manages model loading/unloading for memory efficiency on CPU.
     """
 
-    def __init__(self, config: TranscriptionConfig = None):
+    def __init__(self, config: TranscriptionConfig | None = None):
         self.config = config or TranscriptionConfig()
         self.hf_token = os.getenv("HF_TOKEN")
 
@@ -178,7 +180,7 @@ class WhisperXPipeline:
             compute_type = self.config.compute_type,
             )
         
-        transcribe_kwargs = {"batch_size": self.config.batch_size}
+        transcribe_kwargs: dict[str, Any] = {"batch_size": self.config.batch_size}
         if self.config.language:
             transcribe_kwargs["language"] = self.config.language
 

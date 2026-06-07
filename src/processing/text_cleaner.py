@@ -1,115 +1,103 @@
-# this feature rakes raw whsiperz ouput and produces clean, readable text while preserving meaning,
-# intentionally conservative - better to leave messingness than lose content.
+import logging # for logging progress and issues
+import re # for regex-based pre-cleaning
+from typing import Any, Dict, List
 
-"""
-#main features here:
-1. Removes Filler words (um, uhh, you know)
-2. mergees stuttered repeatations ( the the -> the)
-3. fixes orphaned punctuation (lowercaser to uppercase first letter)
-4. preserves meaningful self-corrections ("no wait, actually...")
-"""
+logger = logging.getLogger(__name__)
 
-"""
-What it avoids
-1. fixing grammar
-2. sentence restructuring to preserve meaning, removing anything that might carry meaning.
-"""
 
-#we start
-import spacy
-import re
-import logging
-#using dataclass while dealing with machine learning is a bad practice
-from typing import List, Dict, Any
+class NlpTranscriptCleaner:
+    """Conservative transcript cleaner for WhisperX segment text.
 
-logger = logging.getLogger(__name__) # Module-level logger
+    The cleaner removes low-value speech artifacts while preserving meaning,
+    timing metadata, speaker labels, acronyms, and original wording.
+    """
 
-class NlpTranscriptCleaner: #NLP pipeline for cleaning transcript text, uses spacy for grammatical accuracy while removing filler and sttuers.
-    FILLER_WORDS = {"um", "uh", "umm", "you know", "i mean", "basically"}
+    SINGLE_FILLERS = {"um", "uh", "umm", "basically"}
+    PHRASE_FILLERS = {"you know", "i mean"}
 
     def __init__(self, model_name: str = "en_core_web_sm"):
-        """Initializes the cleaner and loads the NLP model into memory"""
+        """Load the spaCy pipeline once so batch cleaning stays efficient."""
         try:
-            # Disabling pipeline components we don't need for pure speed
-            # We need 'tagger' and 'attribute_ruler' for POS, and 'parser' for dependencies
+            import spacy
+
             self.nlp = spacy.load(model_name, exclude=["ner", "lemmatizer", "textcat"])
             logger.info(f"Successfully loaded spaCy model: {model_name}")
+        except ImportError as exc:
+            raise ImportError(
+                "spaCy is required for transcript cleaning. "
+                "Install dependencies with `python3 -m pip install -r requirements.txt`."
+            ) from exc
         except OSError:
-            logger.error(f"Model '{model_name}' not found. Did you run 'python -m spacy download {model_name}'?")
+            logger.error(
+                f"Model '{model_name}' not found. "
+                f"Did you run 'python -m spacy download {model_name}'?"
+            )
             raise
 
     def clean_text(self, text: str) -> str:
-        # Cleaning single string of text using POS tagging
+        """Clean one transcript string."""
         if not text or not text.strip():
             return ""
-        doc = self.nlp(text)
-        cleaned_tokens = []
 
-        for i, token in enumerate(doc): # Iterate through tokens in the document
-            token_lower = token.text.lower()
-
-            #1. Handle Explict Fillers & Interjections
-            if token_lower in self.FILLER_WORDS:
-                continue  # Skip filler words entirely
-
-            # Handle the world 'like' safely (Only remove if its an interjection/discourse marker)
-            if token_lower == "like" and token.pos_ in ["INT", "ADP"] and token.dep_ == "intj":
-                continue
-
-            # 2. Handle True Stuttered Repetitions (e.g., "the the" -> "the")
-            if cleaned_tokens and token_lower == cleaned_tokens[-1].lower():
-                if token.pos_ not in ["AUX", "VERB"]: # It's safe to drop repeated nouns, determiners, etc.
-                    continue
-            
-            # 3. Handle Punctuation attached to deleted words
-            # If we deleted the previous word, we don't want a random comma floating around.
-            if token.is_punct and not cleaned_tokens:
-                continue # Don't start a sentence with a comma
-            
-            # If it passed all checks, keep the exact original text (preserving original case)
-            # We use token.text_with_ws to preserve natural spacing
-            cleaned_tokens.append(token.text_with_ws)
-
-        # Reconstruct the string and do a final whitespace cleanup
-        final_text = "".join(cleaned_tokens).strip()
-        
-        # Ensure capitalization is preserved if it was lowered by cleaning
-        if final_text and final_text[0].islower():
-            final_text = final_text[0].upper() + final_text[1:]
-
-        return final_text
+        doc = self.nlp(self._preclean_text(text))
+        return self._process_doc(doc)
 
     def clean_segments_batch(self, segments: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """
-        Cleans a list of WhisperX segments efficiently using nlp.pipe.
-        This is the method you would call in your worker queue.
-        """
+        """Clean WhisperX segments while preserving the original metadata."""
         logger.info(f"Cleaning batch of {len(segments)} segments...")
-        
-        # Extract just the texts for efficient batch processing
-        texts = [seg.get("text", "").strip() for seg in segments]
-        
-        # Use nlp.pipe for highly optimized C-level batch processing
+
+        texts = [
+            self._preclean_text(seg.get("text", ""))
+            for seg in segments
+        ]
+
         cleaned_segments = []
         for i, doc in enumerate(self.nlp.pipe(texts)):
-            # We apply the same logic as clean_text, but leverage the pre-computed docs
-            # (In a fully refactored version, you'd extract the loop logic to share it)
             cleaned_text = self._process_doc(doc)
-            
+
             if cleaned_text:
-                # Merge the cleaned text back with the original timing metadata
                 cleaned_segments.append(segments[i] | {"text": cleaned_text})
 
         return cleaned_segments
 
+    def _preclean_text(self, text: str) -> str:
+        """Apply cheap regex cleanup before the text enters spaCy."""
+        text = text.strip()
+        for phrase in self.PHRASE_FILLERS:
+            pattern = rf"\b{re.escape(phrase)}\b[\s,]*"
+            text = re.sub(pattern, "", text, flags=re.IGNORECASE)
+        return re.sub(r"\s+", " ", text).strip()
+
     def _process_doc(self, doc) -> str:
-        # (This contains the same loop logic as clean_text, abstracted for reuse)
+        """Apply token-level cleanup to an already parsed spaCy doc."""
         cleaned_tokens = []
+        last_kept_lower = None
+
         for token in doc:
-             # ... same validation logic ...
-             if token.text.lower() in self.FILLER_WORDS: continue
-             if token.text.lower() == "like" and token.pos_ in ["INTJ"]: continue
-             if cleaned_tokens and token.text.lower() == cleaned_tokens[-1].lower() and token.pos_ not in ["AUX", "VERB"]: continue
-             if token.is_punct and not cleaned_tokens: continue
-             cleaned_tokens.append(token.text_with_ws)
-        return "".join(cleaned_tokens).strip().capitalize()
+            token_lower = token.text.lower()
+
+            if token_lower in self.SINGLE_FILLERS:
+                continue
+
+            if token_lower == "like" and token.pos_ == "INTJ":
+                continue
+
+            if last_kept_lower == token_lower and token.pos_ not in ["AUX", "VERB"]:
+                continue
+
+            if token.is_punct and not cleaned_tokens:
+                continue
+
+            cleaned_tokens.append(token.text_with_ws)
+
+            if not token.is_punct:
+                last_kept_lower = token_lower
+
+        return self._normalize_output("".join(cleaned_tokens))
+
+    def _normalize_output(self, text: str) -> str:
+        """Normalize final spacing and first-letter casing only."""
+        text = re.sub(r"\s+", " ", text).strip()
+        if text and text[0].islower():
+            return text[0].upper() + text[1:]
+        return text
