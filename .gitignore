@@ -1,12 +1,25 @@
 .env
+# Virtual environments
 venv/
 .venv
 venv311/
+
+# Python cache/build files
 __pycache__/
 *.pyc
-data/sample_audio/
-data/processed_audio/
 *.egg-info/
 .pytest_cache/
-Full Roadmap.md
+
+# Local IDE/editor files
+.idea/
+.vscode/
+
+# OS files
 .DS_Store
+
+# Local/generated data
+data
+
+# Extra for self learning
+Full Roadmap.md
+
