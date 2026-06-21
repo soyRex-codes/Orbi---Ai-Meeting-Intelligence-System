@@ -8,7 +8,7 @@ We had a 2-hour meeting with many discussions, but we couldn’t keep track of a
 So, we came up with the idea of automating this process so others don’t face the same problem.
 
 ## Current Status
-Project setup complete. Pipeline not yet functional.
+Project setup complete, transcriber implemented using whishperx and then text cleaner also implmented, with text segmenter, fully test, all works end to end.
 
 ## What we are learning
 We have documented our learning journey in docs/learning_journal.md
