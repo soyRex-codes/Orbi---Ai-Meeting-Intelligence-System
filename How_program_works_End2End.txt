@@ -1,0 +1,73 @@
+--IN Short---
+Audio
+ -> WhisperX transcription
+ -> text cleaning
+ -> topic segmentation
+ -> final meeting JSON
+
+----OR. Fully Explained below ----
+Audio File
+data/sample_audio/meeting_01.webm
+        |
+        v
+WhisperXPipeline
+src/transcription/whisperx_pipeline.py
+        |
+        | 1. loads audio
+        | 2. transcribes speech to text
+        | 3. aligns words with timestamps
+        | 4. optionally adds speaker labels
+        v
+Raw Transcript Segments
+[
+  { text, start, end, speaker, words... },
+  ...
+]
+        |
+        v
+NlpTranscriptCleaner
+src/processing/text_cleaner.py
+        |
+        | removes fillers, duplicate words,
+        | empty text, extra whitespace
+        v
+Cleaned Transcript Segments
+[
+  { clean text, start, end, speaker... },
+  ...
+]
+        |
+        v
+TopicSegmenter
+src/processing/topic_segmenter.py
+        |
+        | builds text windows
+        | creates embeddings
+        | detects topic changes
+        v
+Topic Segments
+[
+  {
+    topic_id,
+    title,
+    start_index,
+    end_index,
+    speakers,
+    duration_seconds,
+    full_text,
+    text_preview
+  },
+  ...
+]
+        |
+        v
+MeetingPipeline
+src/pipeline.py
+        |
+        | combines transcript,
+        | cleaned text,
+        | topic segments,
+        | metadata
+        v
+Final JSON Output
+data/processed_meetings/test-meeting-01.json
