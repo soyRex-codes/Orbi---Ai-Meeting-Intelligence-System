@@ -2,11 +2,13 @@
 
 import json
 import logging
+import pytest
 from src.transcription.whisperx_pipeline import WhisperXPipeline, TranscriptionConfig
 
 # Enable logging so we can see progress
 logging.basicConfig(level = logging.INFO, format = "%(asctime)s [%(levelname)s] %(message)s")
 
+@pytest.mark.slow
 def test_full_pipeline():
     """Run the complete pipeline on a sample meeting."""
 
@@ -77,6 +79,7 @@ def test_full_pipeline():
     print(f"\nFull pipeline test passed")
     return result
 
+@pytest.mark.slow
 def test_compare_model_sizes():
     """Compare base vs small model on the same audio."""
 

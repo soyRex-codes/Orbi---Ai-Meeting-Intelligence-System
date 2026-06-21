@@ -1,41 +1,33 @@
-"""
-Quick test: does whisperx run on this device?
-This will verfies installation, model download,
-and basic transcription.
-"""
-import whisperx
-import os
-from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()
+import pytest
 
-# Device Configuration
-DEVICE = "cpu"          # MPS is experimental, CPU is more stable
-COMPUTE_TYPE = "int8"   # Fastest on CPU, use "float32" for max accuracy
-BATCH_SIZE = 4          # Low for CPU, GPU users would use 16
-MODEL_SIZE = "base"     # Fast for testing, can upgrade to "small" or "medium" later
 
-audio_file = 'data/sample_audio/meeting_01.webm'
+@pytest.mark.slow
+def test_whisperx_quick_transcription():
+    """Verify WhisperX can load, transcribe, and return segments for sample audio."""
+    import whisperx
 
-print(f'Device: {DEVICE}, Compute: {COMPUTE_TYPE}, Model: {MODEL_SIZE}')
-print(f'Audio: {audio_file}')
-print()
+    device = "cpu"
+    compute_type = "int8"
+    batch_size = 4
+    model_size = "base"
+    audio_file = Path("data/sample_audio/meeting_01.webm")
 
-# Loading model and transcribe
-print('Loading WhisperX model......')
-model = whisperx.load_model(MODEL_SIZE, DEVICE, compute_type = COMPUTE_TYPE)
+    assert audio_file.exists(), f"Sample audio missing: {audio_file}"
 
-print('Loadind audio.......')
-audio = whisperx.load_audio(audio_file)
+    print(f"Device: {device}, Compute: {compute_type}, Model: {model_size}")
+    print(f"Audio: {audio_file}")
 
-print('Transcribing(this may take some time)....')
-result = model.transcribe(audio, batch_size = BATCH_SIZE)
+    model = whisperx.load_model(model_size, device, compute_type=compute_type)
+    audio = whisperx.load_audio(str(audio_file))
+    result = model.transcribe(audio, batch_size=batch_size)
 
-print(f'\nTranscription Complete')
-print(f'Language detected: {result['language']}')
-print(f'Segments: {len(result['segments'])}')
-print(f'\nFirst 3 segments (before alignment):')
-for seg in result['segments'][:3]:
-    print(f" [{seg['start']:.1f}s -- {seg['end']:.1f}s]' {seg['text']}")
+    assert result["language"]
+    assert result["segments"]
 
-print(f'\nWhisperX basic transcription works.')
+    print("\nTranscription complete")
+    print(f"Language detected: {result['language']}")
+    print(f"Segments: {len(result['segments'])}")
+    for seg in result["segments"][:3]:
+        print(f" [{seg['start']:.1f}s -- {seg['end']:.1f}s] {seg['text']}")
