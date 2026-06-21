@@ -1,12 +1,14 @@
 .env
 venv/
-.venv
+.venv/
 venv311/
 __pycache__/
 *.pyc
 data/sample_audio/
 data/processed_audio/
+data/processed_meetings/
 *.egg-info/
 .pytest_cache/
 Full Roadmap.md
 .DS_Store
+.vscode/
