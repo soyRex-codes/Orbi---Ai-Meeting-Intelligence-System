@@ -1,36 +1,36 @@
-from pyannote.audio import Pipeline
-import torch
 import os
-from dotenv import load_dotenv
 
-load_dotenv()
-pipeline = Pipeline.from_pretrained(
-    "pyannote/speaker-diarization-3.1",
+import pytest
+
+
+@pytest.mark.slow
+def test_diarization_quick():
+    """Run pyannote diarization on the processed sample audio."""
     token = os.getenv("HF_TOKEN")
-)
-# Use GPU if available
-if torch.cuda.is_available():
-    pipeline = pipeline.to(torch.device("cuda"))
+    if not token:
+        pytest.skip("HF_TOKEN is required for gated pyannote diarization model")
 
-# Running diarizaion on processed audio
-audio_path = 'data/processed_audio/meeting_01_processed.wav'
-diarization = pipeline(audio_path)
+    from pyannote.audio import Pipeline
+    from huggingface_hub.errors import GatedRepoError
+    import torch
 
-for turn, _, speaker in diarization.speaker_diarization.itertracks(yield_label=True):
-    print(f"[{turn.start:7.1f}s -> {turn.end:7.1f}s] {speaker}")
+    try:
+        pipeline = Pipeline.from_pretrained(
+            "pyannote/speaker-diarization-3.1",
+            token=token,
+        )
+    except GatedRepoError:
+        pytest.skip(
+            "HF_TOKEN is valid, but this Hugging Face account does not have "
+            "access to pyannote/speaker-diarization-3.1 yet"
+        )
 
+    if torch.cuda.is_available():
+        pipeline = pipeline.to(torch.device("cuda"))
 
-"""
-It gives the list of time ranges, each labeled with a speaker ID like 
-"Speaker_00", "Speaker_01", etc. The speakers didn't have real names and 
-that's what we need to figure out to align with out whisper model. The print 
-statement gives output like:
-[    1.1s ->     3.2s] SPEAKER_02  ---> Means Speaker 2 speaks from 1.1 to 3.2 seconds.
-[    3.5s ->     6.1s] SPEAKER_02
-[    6.6s ->     7.5s] SPEAKER_02
-[    7.9s ->    11.1s] SPEAKER_02
-.
-.
-.
-. so on]
-"""
+    diarization = pipeline("data/processed_audio/meeting_01_processed.wav")
+    tracks = list(diarization.speaker_diarization.itertracks(yield_label=True))
+
+    assert tracks
+    for turn, _, speaker in tracks[:10]:
+        print(f"[{turn.start:7.1f}s -> {turn.end:7.1f}s] {speaker}")

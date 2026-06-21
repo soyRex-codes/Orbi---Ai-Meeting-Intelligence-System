@@ -4,6 +4,7 @@
 
 [tool.pytest.ini_options]
 pythonpath = ["."] # this is used to tell pytest where to find the source code. specifically, it tells pytest "add the project root to sys.path before importing anything." Now from src.transcription... will resolve.
+testpaths = ["tests"]
 markers = [
     "slow: tests that load ML models or process real audio files",
 ]
